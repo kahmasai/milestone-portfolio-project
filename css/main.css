@@ -1,0 +1,344 @@
+/* stylesheet for Kuta's portfolio*/
+
+/*-----Color Palette-----
+
+*/
+
+
+
+/*----- Fonts -----
+
+*/
+
+
+
+/*----- Table of Contents -----
+
+- Base Styles
+
+- Grid
+
+- Header
+
+- Footer
+
+- Pages
+
+    - Homepage
+       - main
+          - hero image
+          - Portfolio
+          - about
+
+
+    - Contact
+*/
+/***** Utilities *****/
+
+.left-float {
+	float: left;
+}
+
+.right-float{
+	float: right;
+}
+
+.clear-float {
+	clear: both;
+}
+
+/* ----- BASE STYLES -----*/
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #231f20;
+	background-color: #ffffff
+}
+
+/* ----- GRID -----*/
+
+.full-width {
+  width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+	float: left;
+}
+
+.third-width {
+  width: 400px;
+	float: left;
+}
+
+/* ----- HEADER -----*/
+
+header {
+	height: 800px;
+	background: url("../img/hero-background.png");
+	background-size: cover;
+	background-position: center;
+
+}
+
+header h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	color: #f56980;
+	padding: 65px 0 65px 0;
+}
+
+nav {
+	float: right;
+	padding: 75px 25px;
+
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: lowercase;
+	text-decoration: none;
+	font-size: 20px;
+	color: #231f20;
+	padding-left: 80px;
+
+}
+
+
+header h2 {
+	width: 500px;
+	clear: both;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	line-height: 70px;
+	color: #231f20;
+}
+
+header p {
+	font-size: 15px;
+}
+
+header p span {
+	color: #231f20;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* ----- PORTFOLIO STYLE -----*/
+
+#work {
+	background: #edf0ef;
+	height: 1560px;
+	padding-bottom: 30px;
+	display: grid;
+}
+
+#work h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	text-align: center;
+	padding: 25px 0 25px 0;
+}
+
+#rogue-img {
+	border-style: solid;
+	border-color: #8f8f8f;
+	border-width: 2px;
+	width: 550px;
+	height: 346px;
+	background-color: #ffffff;
+}
+
+#rogue-info {
+	text-align: left;
+}
+
+#rogue-info h3 a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	color: #231f20;
+	text-decoration: none;
+}
+
+}
+
+#rogue-info h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+
+}
+
+#rogue-info p{
+	font-size: 20px;
+	line-height: 50px;
+
+}
+
+#jubilee-austen-img {
+	border-style: solid;
+	border-color: #8f8f8f;
+	border-width: 2px;
+	width: 550px;
+	height: 346px;
+	background-color: #ffffff;
+}
+
+#jubilee-austen-info {
+	padding: 10px 50px 0 0;
+	text-align: right;
+
+}
+
+#jubilee-austen-info h3 a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	color: #231f20;
+	text-decoration: none;
+}
+
+#jubilee-austen-info h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+#jubilee-austen-info p{
+	font-size: 20px;
+	line-height: 50px;
+
+}
+
+#holstee-img {
+	border-style: solid;
+	border-color: #8f8f8f;
+	border-width: 2px;
+	width: 550px;
+	height: 346px;
+	background-color: #ffffff;
+}
+
+#holstee-info {
+
+	text-align: left;
+}
+
+#holstee-info h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+
+
+}
+
+#holstee-info h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+
+}
+
+#holstee-info p{
+	font-size: 20px;
+	line-height: 50px;
+
+}
+
+/* ----- ABOUT STYLES -----*/
+
+#about {
+	height: 700px;
+	background: url("../img/about-image.png");
+	background-size: cover;
+	background-position: center;
+	padding-top: 50px;
+	padding-right: 50px;
+
+}
+
+#about h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	text-align: left;
+	padding-left: 620px;
+
+}
+
+#about p {
+	font-family: 'Raleway', sans-serif;
+	line-height: 50px;
+	font-size: 20px;
+	text-align: left;
+	padding-top: 30px;
+	padding-left: 620px;
+
+
+
+}
+
+/* ----- CONTACT STYLES -----*/
+
+#contact {
+	height: 300px;
+	background: url("../img/contact-image.png");
+	background-size: cover;
+	background-position: center;
+	padding-top: 15px;
+	text-align: center;
+}
+
+#contact h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+}
+
+#email h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+}
+
+#email p a {
+	color: #231f20;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#social-media h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+}
+
+#social-media ul{
+	list-style: none;
+}
+
+#social-media ul li{
+	display: inline-block;
+}
+
+#social-media img{
+	padding-right: 48px;
+}
+
+#read a {
+	color: #231f20;
+	text-decoration: none;
+}
+
+#read h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+}
+
+#read p {
+	font-size: 20px;
+}
+
+
+footer {
+	height: 50px;
+	background-color: #00ab84;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
